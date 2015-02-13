@@ -9,7 +9,7 @@ var app = express();
 //Connecting to MongoDB
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk("localhost/test")
+var db = monk("192.168.59.103:80/test")
 
 
 var routes = require('./routes/index');
